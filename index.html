@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <nav>
+        <div id="home">
+            <p><a href="index.html">Backend</a></p>
+        </div>
+        <div id="userInterface">
+            <p><a href="frontend.html">FrontEnd</a></p>
+        </div>
+        <div id="batches">
+            <p></p>
+            <p></p>
+        </div>
+    </nav>
+
+    <form id="form">
+        <h3>Student Management Portal</h3>
+        <input type="text" id="name" placeholder="Name">
+        <select name="" id="course">
+            <option class="none">Select Course</option>
+            <option value="FTW">FTW</option>
+            <option value="BKW">BKW</option>
+            <option value="FSD">FSD</option>
+        </select>
+        <select name="" id="unit" >
+            <option class="none">Select Unit No.</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <input type="url" id="image" placeholder="Image URL">
+        <!-- <input type="number" id="batch" placeholder="Enter Batch No."> -->
+        <select name="" id="batch">
+            <option value="none">Select Batch No.</option>
+            <option value="18">FT-Web-18</option>
+            <option value="19">FT-Web-19</option>
+        </select>
+        <input type="submit" id="submit">
+    </form>
+</body>
+<script src="index.js"></script>
+<script src="nav.js"></script>
+</html>

@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #fcde67;
+}
+nav{
+    display: flex;
+    width: 99%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    /* background-color: #5CDB95; */
+    /* background-color: #1F2833; */
+    color: black;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: overline;
+    color: purple;
+}
+#batches{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+#batches>p{
+    cursor: crosshair;
+}

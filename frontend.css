@@ -1,0 +1,45 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 25px;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+}
+#container>div{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #8617c0;
+    border-radius: 10px;
+}
+#container>div:hover{
+    padding: 5px;
+}
+.name, .course, .unit,.batch{
+    color: white;
+    font-size: 20px;
+    line-height: 8px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 600;
+}
+.img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.remove{
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.remove:hover{
+    color: red;
+    border: 1px solid red;
+    background-color: pink;
+}
